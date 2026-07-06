@@ -35,5 +35,10 @@ The project follows a complete data science workflow, beginning with data cleani
 
 Among the three models, **Linear Regression** achieved the best overall performance:
 
-The project also demonstrates feature engineering, feature importance analysis, model comparison, and sample prediction using the best-performing model.
+| Model | MAE | RMSE | R² Score |
+|-------|----:|-----:|---------:|
+| Linear Regression | **1.51** | **2.54** | **0.7504** |
+| Decision Tree | **1.36** | **3.02** | **0.6472** |
+| Random Forest | **1.39** | **3.37** | **0.5601** |
 
+The project also demonstrates feature engineering, feature importance analysis, model comparison, and sample prediction using the best-performing model.
